@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Roboto:wght@300;400;500;700&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  /* Percentage of user's browser font-size setting */
+  font-size: 62.5%;
+  
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  line-height: 1;
+  font-weight: 400;
+  color: #0e1133;
+  /* position: relative; */
+}
+
+/**************************/
+/* GENRAL REUSABLE COMPONENTS */
+/**************************/
+.container {
+  max-width: 140rem;
+  padding: 0 3.2rem;
+  margin: 0 auto; 
+}
+a{
+  text-decoration: none;
+}
+.heading-secandary{
+  font-size: 4.4rem;
+  font-weight: 700;
+  margin-bottom: 1.6rem;
+  line-height: 1.2;
+}
+.heading-terminal{
+  color: #ff5175;
+  margin-bottom: 1.2rem;
+  font-size: 1.8rem;
+  line-height: 1.8;
+}
+.nav-btn:link,
+.nav-btn:visited{
+    text-decoration: none;
+    display: inline-block;
+    color: #fff ;
+    font-weight: 500;
+    font-size: 1.8rem;
+    background-color: #ff3e66;
+    padding: 1.2rem 2.4rem;
+    border-radius: 20px;
+}
+.nav-btn:hover,
+.nav-btn:active{
+    color: #fff ;
+    background-color: #ff5175;
+    box-shadow: 3px 3px 6px 0 rgba(0,0,0,0.09);
+}
+.flex-container{
+    display: flex;
+    gap: 1.6rem;
+}
+.btn:link,
+.btn:visited{
+    border-radius: 25px;
+    border: 1px solid #bdbdbf;
+    padding: 1.2rem 2.4rem;
+    text-decoration: none;
+    font-size: 1.8rem;
+    color: inherit;
+    font-weight: 500;
+}
+.btn:hover,
+.btn:active{
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    color: #0e1133d3 ;
+}
+.more-details{
+  color: #565870;
+  font-size: 1.4rem;
+  font-weight: 500;
+}
+.arrow{
+  justify-self: end;
+}
+.arrow .btn{
+  padding: 1.2rem;
+}
+.arrow .btn:first-child{
+  margin-right: 1.2rem;
+}
+hr{
+  margin: 2.4rem 0;
+  height: 1px;
+  background-color: #e7e7eb;
+  border: none;
+}
+.grid {
+  display: grid;
+  gap: 2.4rem;
+}
+.flex{
+  display: flex;
+  align-items: center;
+}
+.center-v-h{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+strong {
+  font-weight: 600;
+}
